@@ -1,5 +1,5 @@
 .Tooltip-container {
-  --mid-width: 20rem;
+  --min-width: 20rem;
   --max-width: 20rem;
   position: absolute;
 
