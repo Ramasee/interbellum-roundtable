@@ -15,9 +15,6 @@ const KLASSES = [
   },
 ];
 
-const KLASSES2 = [
-];
-
 interface Props {}
 
 export const KlassList: React.FC<Props> = () => {
@@ -28,15 +25,6 @@ export const KlassList: React.FC<Props> = () => {
     <ul className="KlassList">
       {KLASSES.map((klass) => (
         <li className="KlassList-item" key={klass.name}>
-          <Link to={klass.path} replace>
-            <SquareButton icon={klass.icon} />
-          </Link>
-        </li>
-      ))}
-    </ul>
-	<ul className="KlassList2">
-      {KLASSES2.map((klass) => (
-        <li className="KlassList2-item" key={klass.name}>
           <Link to={klass.path} replace>
             <SquareButton icon={klass.icon} />
           </Link>
