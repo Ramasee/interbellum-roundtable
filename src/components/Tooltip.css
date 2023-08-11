@@ -2,7 +2,7 @@
   --max-width: 20rem;
   position: absolute;
 
-  width: var(--max-width);
+  width: 20rem;
   z-index: var(--z-index-tooltip);
   pointer-events: none;
 }
