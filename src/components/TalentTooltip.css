@@ -1,0 +1,52 @@
+.TalentTooltip-content {
+  font-size: 0.75rem;
+  font-family: Verdana, sans-serif;
+  line-height: 1.3;
+  color: #fff;
+}
+
+.TalentTooltip-description {
+  color: var(--col-yellow);
+  white-space: pre-wrap;
+}
+
+.TalentTooltip-title {
+  font-size: 1rem;
+}
+
+.TalentTooltip-error {
+  color: var(--col-red);
+}
+
+.TalentTooltip-clickToLearn {
+  color: var(--col-green);
+}
+
+
+.TalentTooltip-type {
+  width:100%;
+  text-align:left;
+}
+
+.TalentTooltip-costrange {
+  width:100%;
+  text-align:left;
+}
+
+.TalentTooltip-costrange span {
+  float:right;
+}
+
+.TalentTooltip-castcooldown {
+  width:100%;
+  text-align:left;
+}
+
+.TalentTooltip-castcooldown span {
+  float:right;
+}
+
+.TalentTooltip-blue {
+  color: #4169E1;
+  white-space: pre-wrap;
+}

@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  --col-background: #141414;
+  --col-pane: #222222;
+  --col-yellow: #ffd100;
+  --col-red: #ff4040;
+  --col-green: #1eff00;
+
+  --icon-size: 2.75rem;
+  --arrow-thickness: 1rem;
+
+  --z-index-arrow: 100;
+  --z-index-tooltip: 200;
+  --z-index-sticky: 300;
+
+  --sp-xxxs: 0.0625rem;
+  --sp-xxs: 0.125rem;
+  --sp-xs: 0.25rem;
+  --sp-sm: 0.5rem;
+  --sp-md: 1rem;
+  --sp-lg: 2rem;
+  --sp-xl: 4rem;
+
+  margin: 0;
+  font-family: "Helvetica";
+
+  background: var(--col-background);
+}

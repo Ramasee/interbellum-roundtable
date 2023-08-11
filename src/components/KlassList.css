@@ -1,0 +1,21 @@
+.KlassList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+
+.KlassList-item {
+  margin: var(--sp-md);
+}
+
+.KlassList2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+
+.KlassList2-item {
+  margin: var(--sp-md);
+}
