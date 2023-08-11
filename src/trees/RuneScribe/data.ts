@@ -9,7 +9,7 @@ const icons = requireAll(require.context("../../assets/icons/dwarf"));
 export const data: TalentData = {
   "Runelord": {
     name: "Runelord",
-    background: backgrounds["runelord"],
+    background: backgrounds["placeholder"],
     icon: icons["archetype_offsupport"],
     talents: {
       "Loved By All": {
@@ -705,7 +705,7 @@ export const data: TalentData = {
   },
   "Rune Priest": {
     name: "Rune Priest",
-    background: backgrounds["runepriest"],
+    background: backgrounds["placeholder"],
     icon: icons["archetype_healer"],
     talents: {
       "Loved By All": {
@@ -1412,7 +1412,7 @@ export const data: TalentData = {
   },
   "Runesmith": {
     name: "Runesmith",
-    background: backgrounds["runesmith"],
+    background: backgrounds["placeholder"],
     icon: icons["archetype_defsupport"],
     talents: {
       "Loved By All": {
