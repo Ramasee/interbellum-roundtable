@@ -46,7 +46,7 @@
 .Tooltip-backgroundContainer {
   position: absolute;
   height: 100%;
-  width: 100%;
+  width: 20rem;
 
   display: grid;
   grid-template-columns: 1fr 1fr;
