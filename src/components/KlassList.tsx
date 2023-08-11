@@ -9,18 +9,13 @@ const icons = requireAll(require.context("../assets/icons", false));
 
 const KLASSES = [
   {
-    name: "Engineer",
-    icon: icons["class_engineer"],
-    path: "/engineer",
-  },
-];
-
-const KLASSES2 = [
-  {
     name: "Rune Scribe",
     icon: icons["class_runescribe"],
     path: "/runescribe",
   },
+];
+
+const KLASSES2 = [
 ];
 
 interface Props {}
