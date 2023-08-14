@@ -703,8 +703,8 @@ export const data: TalentData = {
       },
     },
   },
-  "Rune Priest": {
-    name: "Rune Priest",
+  "Runepriest": {
+    name: "Runepriest",
     background: backgrounds["placeholder"],
     icon: icons["archetype_healer"],
     talents: {
@@ -1417,7 +1417,7 @@ export const data: TalentData = {
     talents: {
       "Loved By All": {
         name: "Loved By All",
-        pos: "a8",
+        pos: "h8",
         icon: icons["rrtac_lovedbyall"],
         maxRank: 1,
         reqPoints: 25,
